@@ -1,8 +1,10 @@
 [plugin]
 repository = "https://github.com/karashiiro/TextToTalk.git"
-commit = "711291a37ad37ff52d7a371908dfb61b4cd795e5"
+commit = "7a54207f0f093c2d73d3067c7dc0e506288e9925"
 project_path = "src"
 owners = ["karashiiro"]
 changelog = """\
-- Fixes login issue in Azure backend
+- Fixes being unable to add lexicons to the Azure voice backend
+- Fixes being unable to save changes to existing chat type presets
+- Small internal refactor which might fix some other minor bugs in voice playback
 """

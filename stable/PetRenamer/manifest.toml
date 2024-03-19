@@ -1,17 +1,9 @@
 [plugin]
 repository = "https://github.com/Glyceri/FFXIVPetRenamer.git"
-commit = "dc74181930ca031ab6824ae7b096f1990cdb12f1"
-owners = ["Glyceri",]
+commit = "07edc82ba82f2690a064179fd0b074dbf236005d"
+owners = ["Glyceri"]
 	changelog = """
-    + [1.2.1.2]
-    + Fixed a rare crash occuring during targeting.
-    + Fixed imported lists not saving.
-    + [1.2.1.1]
-    + Updates now dispose properly O///O
-    + No more colour themes leaking when quitting the plugin.
-    + Huge, and I mean HUGE performance improvements.
-    + More intuitive UI and theme upgrades.
-    + There is now a help screen.
-    + Target Bars are now hook based, no more flickering.
-    + Save file version updated from 4 to 5
+    [1.4.8.3]
+    'Give Nickname' has been renamed to '[P] Rename' (Get used to it)
+    The plugin icon is changed because in reality... I cannot see green properly.
 """

@@ -3,10 +3,11 @@
 # Must be visible to the external web, but doesn't have to be GitHub.
 # If `git clone` accepts it, it will work here, with the caveat that it
 # must be accessible (i.e. no `git` or `ssh` URLs, as the agent cannot clone those)
-repository = "https://github.com/NightmareXIV/Weatherman.git"
+repository = "https://github.com/AtmoOmen/Weatherman.git"
 # The commit to check out and build from the repository.
-commit = "25dad71df00e28dd91d5aac0d4773147b3bba180"
+commit = "74a6a2a55d2be7bdd25761c4dae925f7705c9b45"
 # The people authorised to update this manifest (e.g. who can deploy updates). These are GitHub usernames.
 owners = [
-    "Limiana"
+    "Limiana",
+    "AtmoOmen"
 ]

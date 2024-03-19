@@ -1,8 +1,10 @@
 [plugin]
 repository = "https://github.com/Styr1x/Browsingway.git"
-commit = "5de34a438900df05d8aed48655868847d47ff54d"
+commit = "68fd115247cece23711aba63df709282f8afcdd0"
 owners = ["Styr1x"]
 project_path = "Browsingway"
 changelog = """\
-- Update Chromium to 111.0.5563.148
+- Chromium 121.0.6167.184 (fix for various CVEs)
+- Fullscreen mode by Una (experimental, unsupported)
+- Minor UI fixes
 """

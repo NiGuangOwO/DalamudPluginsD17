@@ -1,16 +1,27 @@
 [plugin]
 repository = "https://github.com/MapleRecall/Distance.git"
-commit = "afdac1d9aeb78188799c5d52b29a835f62867e7c"
+commit = "c63f6abd4904fb82122ceab285a0d1325fc60f06"
 owners = [
     "PunishedPineapple",
     "MapleRecall"
 ]
 project_path = "Distance"
 changelog = '''
-- Separated the aggro arc from the aggro distance readout.  Some options are still shared, but you can now set it to use one without the other.
-- Made automatic updating of aggro data on by default *for new installations*.  If you have already loaded the plugin at least once, this change will have no effect.  Anyone can toggle the automatic update setting in the plugin configuration window at any time.
-- Workaround for enemies with RSV'd names.
-- Fixed some minor issues with the aggro data updater and improved logging.
-- Improved the configuration window.
-- Added a link to information about how distances work in the game.
+- 汉化
+- 修复国服开怪距离功能
+
+- 添加了基于距离的文本小部件和名牌距离的淡入淡出效果
+- 添加了按对象类型偏移的名牌距离
+- 对配置界面进行了轻微的改进
+
+还包含以下之前仅在测试分支中的差异：
+- 添加了与自定义小部件匹配的自定义弧线功能
+- 重写了配置界面
+- 对所有距离显示添加了职业过滤器
+- 添加了一个用于实例内外的过滤器
+- 将其他过滤器类型应用于之前没有的显示
+- 改进了名牌节点设置，使其更接近基础游戏
+- 修复了在插件卸载时名牌文本节点未能正确清理的错误
+- 改进了日志记录
+- 进行了重大的代码清理和重组
 '''

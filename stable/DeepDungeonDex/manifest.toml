@@ -1,7 +1,7 @@
 [plugin]
 repository = "https://github.com/wolfcomp/DeepDungeonDex.git"
-owners = [ "wolfcomp" ]
+owners = ["wolfcomp"]
 project_path = "DeepDungeonDex"
-commit = "6f3333b1369274d62ed74fa3afa844acddafb0ce"
-changelog = "### 2.7.1 (2023-09-04)\n\n\n### Bug Fixes\n\n* dont open debug window on init (50b123a)"
-version = "2.7.1"
+commit = "135c4aa203baffc9d2b4ba9f2e60061a9a18ec7f"
+changelog = "### 2.9.4 (2024-01-17)\n\nRollback of window changes until development is finished. As per PAC request."
+version = "2.9.4"

@@ -2,5 +2,5 @@
 repository = "https://github.com/wozaiha/VisibilityPlugin.git"
 owners = [ "SheepGoMeh",]
 project_path = "Visibility"
-commit = "341d5e5b79207f292111200cbcab2ba7e24f229c"
-changelog = "- 国服6.4适配"
+commit = "4fd189f5a168fcfc1a0da6d20dde9074693d896c"
+changelog = "请尽量使用UI添加角色，如实在需要使用命令行添加黑白名单，请在角色名前额外敲个空格"

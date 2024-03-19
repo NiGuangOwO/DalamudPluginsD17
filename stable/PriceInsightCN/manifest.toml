@@ -1,8 +1,10 @@
 [plugin]
 repository = "https://github.com/VeroFess/ffxiv-priceinsight-cn.git"
-commit = "c3ede00ce9ab6e4c2b39f7f8eaa511d2d07b93c4"
+commit = "07b97ed9be81506be295eb9de70ea67c6aad7fe0"
 owners = ["Kouzukii","VeroFess"]
 project_path = ""
 changelog = """
-- 合并上游错误修正
+- 升级到 API 9
+- 迁移 CDN 到企业线路
+- 将国外查询直接重定向到源站
 """

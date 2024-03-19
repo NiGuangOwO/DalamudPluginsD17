@@ -1,6 +1,0 @@
-[plugin]
-repository = "https://github.com/SheepGoMeh/VisibilityPlugin.git"
-owners = [ "SheepGoMeh",]
-project_path = "Visibility"
-commit = "6ce84ed800400e645ed05015c0563bfbbefd5455"
-changelog = "- Refactored UI code to address disappearing menu issues"

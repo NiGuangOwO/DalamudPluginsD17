@@ -8,8 +8,7 @@
 
 - 确保您的插件位于可公开访问的 Git 存储库中（GitHub、GitLab、任何允许 HTTP 克隆而无需身份验证的自托管 Git 实例）
 - 更新你的 .csproj
-   - 在 "PropertyGroup" 中设置 "<RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>"
-   - 如果您还没有使用 `$(DalamudLibPath)`，请参阅 <https://github.com/goatcorp/SamplePlugin/blob/master/SamplePlugin/SamplePlugin.csproj#L29-L63>
+   - 如果您还没有使用 `$(DalamudLibPath)`，请参阅 <https://github.com/goatcorp/SamplePlugin/blob/c6a5f5fcbf8e6812f274fab6347307c0283bd6fb/SamplePlugin/Dalamud.Plugin.Bootstrap.targets#L10>
 - 在 Release 中构建你的插件，提交你的 `.csproj` + 新生成的 lock 文件
 
 ### 检查标准
@@ -34,7 +33,7 @@
 在这里提交你的插件之前，你应该做一些技术性的工作。它们会使你的插件使用起来更顺手。
 
 - 你的插件必须有一个`icon.png`，在`images/`中不大于512x512，不小于64x64。
-- 对于普通的ImGui窗口，如设置和实用窗口，你应该使用[Dalamud Windowing API](https://goatcorp.github.io/Dalamud/api/Dalamud.Interface.Windowing.html)。它增强了窗口的一些很好的功能，比如按顺序整合到本地UI。
+- 对于普通的ImGui窗口，如设置和实用窗口，你应该使用[Dalamud Windowing API](https://goatcorp.github.io/Dalamud/api/Dalamud.Interface.Windowing.html)。它增强了窗口的一些很好的功能，like integration into the native UI closing-order, pinning, and opacity controls. If it looks like a window, it should use the windowing API. We won't reject updates to existing plugins for this, but we encourage everyone to upgrade.
 - Your plugin's version/assembly version **must not** be based on a timestamp or continually increasing build number. Every time your plugin is built with a specific commit, no matter the time or date, should produce the same version.
 
 ### 提交

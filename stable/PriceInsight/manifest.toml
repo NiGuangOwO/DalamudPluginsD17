@@ -1,8 +1,9 @@
 [plugin]
 repository = "https://github.com/Kouzukii/ffxiv-priceinsight.git"
-commit = "2b1fe544fd5b9ec79f84e033627c53dc247b42aa"
+commit = "502715016673e3358e3e1dcccb0635dc7de5b5d8"
 owners = ["Kouzukii"]
 project_path = ""
 changelog = """
-Fixed tooltip text color displaying incorrectly when using light theme
+- Rewrote caching logic to better avoid unnecessary requests to universalis
+- Improved tooltip display when "Always display NQ and HQ" is turned off
 """
